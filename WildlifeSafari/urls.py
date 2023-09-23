@@ -21,7 +21,7 @@ from animals.views import AnimalViewSet
 
 # create a new router
 router = routers.DefaultRouter()
-# register TodoViewSet with the router
+
 router.register(r"animals", AnimalViewSet)
 
 print(router.urls)
